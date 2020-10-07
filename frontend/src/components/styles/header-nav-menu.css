@@ -1,0 +1,30 @@
+.menu__content {
+    position: fixed;
+    top: 7vh;
+    width: 100%;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161515;
+    opacity: .95;
+    transition: all .3s linear;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu__show {
+    height: 87vh;
+}
+
+a {
+    cursor: pointer;
+    padding: 0.4em;
+}
+
+a:hover {
+    color: #038ce0;
+}
