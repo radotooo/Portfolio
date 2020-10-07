@@ -1,0 +1,18 @@
+.header {}
+
+.header__content {
+    background-color: black;
+    color: lightgray;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.header__content>p {
+    padding: 0 2em;
+}
