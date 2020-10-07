@@ -1,18 +1,19 @@
-.header {}
-
-.header__content {
-    background-color: black;
-    color: lightgray;
-    height: 50px;
+.nav__content {
+    background-color: #161515;
+    color: #ffffff;
+    height: 60px;
     width: 100%;
     display: flex;
     font-size: 24px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-
 }
 
-.header__content>p {
-    padding: 0 2em;
+.nav__content>p {
+    margin: 1em;
+}
+
+.nav__content>p:nth-child(1) {
+    flex-grow: 1;
 }
