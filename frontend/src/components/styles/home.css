@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 350px;
+}
+
+main {
+    flex-basis: 100%;
+    display: flex;
+    background-color: #151320;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+} */

@@ -1,0 +1,29 @@
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information__container {
+    min-width: 275px;
+    max-width: 550px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5em;
+    background-color: #22212C;
+    color: #f2f2f2;
+    border-radius: 0.5em;
+}
+
+.information__container>p {
+    margin: 0.1em 0;
+}
+
+@media (max-width:460px) {
+    .information__container {
+        font-size: 18px;
+    }
+}

@@ -1,14 +1,19 @@
 import React from 'react'
+import Footer from './Footer'
 import Header from './Header'
+import PersonalInfo from './HomePersonalInfo'
+import './styles/home.css'
 
 export default function Home() {
     return (
-        <div>
+        <div className="home">
             <Header />
             <main>
-
+                <PersonalInfo />
             </main>
-            <footer></footer>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }

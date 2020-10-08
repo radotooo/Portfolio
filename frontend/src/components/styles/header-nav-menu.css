@@ -1,35 +1,46 @@
 .menu__content {
     position: fixed;
-    top: 7vh;
-    width: 100%;
+    margin-top: 7.5vh;
+    top: 0;
     left: 0;
     height: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-    background-color: #161515;
+    background-color: #22212C;
     opacity: .95;
     transition: all .3s linear;
-    color: #ffffff;
-    font-size: 24px;
+    color: lightgrey;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .MuiIconButton-root {
-    color: white !important;
+    color: #f2f2f2 !important;
+}
+
+.MuiIconButton-root:hover {
+    color: #ff80bf !important;
 }
 
 .menu__show {
-    height: 87vh;
+    height: 85.4vh;
 }
 
 a {
     cursor: pointer;
-    padding: 0.4em;
+    padding: 0.5em 0.8em;
+    /* border: 0.5px solid lightgrey;
+    border-radius: 0.5em; */
+    transition: color 0.25s;
 }
 
 a:hover {
-    color: #038ce0;
+    color: #ff80bf;
+    border-color: #ff80bf;
+    transition: color 0.25s;
+
 }
