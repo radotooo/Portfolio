@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    min-width: 350px;
+    /* min-width: 350px; */
 }
 
-main {
+.home > main {
     flex-basis: 100%;
     display: flex;
     background-color: #151320;

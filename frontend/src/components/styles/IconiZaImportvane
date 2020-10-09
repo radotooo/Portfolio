@@ -1,0 +1,24 @@
+ 
+ // const JsIcon = <FontAwesomeIcon icon={faJs} />
+    // const nodeJsIcon = <FontAwesomeIcon icon={faNodeJs} />
+    // const htmlIcon = <FontAwesomeIcon icon={faHtml5} />
+    // const css3Icon = <FontAwesomeIcon icon={faCss3Alt} />
+    // const reactIcon = <FontAwesomeIcon icon={faReact} />
+
+    // const gitIcon = <FontAwesomeIcon icon={faGitAlt} />
+    // const microsoftIcon = <FontAwesomeIcon icon={faMicrosoft} />
+    // {JsIcon}
+    // {nodeJsIcon}
+    // {htmlIcon}
+    // {css3Icon}
+    // {reactIcon}
+    // {gitIcon}
+    // {microsoftIcon
+    
+    // import { faJs } from "@fortawesome/free-brands-svg-icons"
+// import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
+// import { faHtml5 } from "@fortawesome/free-brands-svg-icons"
+// import { faCss3Alt } from "@fortawesome/free-brands-svg-icons"
+// import { faReact } from "@fortawesome/free-brands-svg-icons"
+// import { faGitAlt } from "@fortawesome/free-brands-svg-icons"
+// import { faMicrosoft } from "@fortawesome/free-brands-svg-icons"

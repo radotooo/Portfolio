@@ -6,6 +6,18 @@
     display: flex;
     justify-content: center;
 
-    /* position: fixed;
-    bottom: 0; */
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+.footer__container > a{
+    padding: 0;
+    color:#9580ff;
+    margin-right: 8px;
+    text-decoration: none;
+}
+.footer__container > p{
+       margin-right: 8px;
 }

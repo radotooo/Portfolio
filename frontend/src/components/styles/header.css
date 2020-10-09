@@ -24,25 +24,24 @@
 }
 
 
-.menu {
+.nav__content__text>p> .resume__icon{
+    color:#9580ff;
+}
+.nav__menu {
     display: none;
 
 }
 
-.text {
+.nav__content__text{
     display: flex;
 }
 
-/* .text>p {
-    margin: 1em;
-} */
-
 @media (max-width:500px) {
-    .text {
+    .nav__content__text {
         display: none;
     }
 
-    .menu {
+    .nav__menu {
         display: inline;
     }
 

@@ -1,12 +1,8 @@
-.information {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .information__container {
-    min-width: 275px;
+    /* min-width: 275px; */
     max-width: 550px;
+    height: auto;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -18,8 +14,23 @@
     border-radius: 0.5em;
 }
 
-.information__container>p {
-    margin: 0.1em 0;
+.information__container__text{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.information__container__text>p{
+        margin: 0.1em 0;
+}
+
+.information__container__images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information__container__images > img{
+    height: 30px;
+    padding: 0.5em;
 }
 
 @media (max-width:460px) {

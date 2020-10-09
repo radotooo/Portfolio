@@ -26,7 +26,7 @@ export default function NavMenu() {
     }
 
     return (
-        <div className="menu">
+        <div className="nav__menu">
             {handleIcons()}
             <div className={["menu__content", toggleNavMenu].join(" ")}
                 onClick={handleClick} >
