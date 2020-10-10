@@ -13,7 +13,7 @@
     background-color: #22212C;
     opacity: .95;
     transition: all .3s linear;
-    color: lightgrey;
+    color: #9580ff;
     font-size: 20px;
     font-weight: 500;
 }
@@ -30,17 +30,16 @@
     height: 85.4vh;
 }
 
-a {
+.menu__show > a {
     cursor: pointer;
     padding: 0.5em 0.8em;
-    /* border: 0.5px solid lightgrey;
-    border-radius: 0.5em; */
     transition: color 0.25s;
+    border:1px solid #9580ff;
+    border-radius: 5px;
 }
 
 a:hover {
     color: #ff80bf;
     border-color: #ff80bf;
     transition: color 0.25s;
-
 }

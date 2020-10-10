@@ -1,8 +1,13 @@
+.nav{
+     background-color: #22212C;
+     color: #f2f2f2;
+     width: 100%;
+    }
+
 .nav__content {
-    background-color: #22212C;
-    color: #f2f2f2;
-    height: 55px;
-    width: 100%;
+    margin: auto;
+   max-width: 85%;
+     height: 55px;
     display: flex;
     font-size: 20px;
     justify-content: space-between;
@@ -15,7 +20,7 @@
     cursor: pointer;
 }
 
-.nav p:hover {
+.nav p:hover{
     color: #ff80bf;
 }
 
@@ -27,6 +32,7 @@
 .nav__content__text>p> .resume__icon{
     color:#9580ff;
 }
+
 .nav__menu {
     display: none;
 

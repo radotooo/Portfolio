@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
 import PersonalInfo from './HomePersonalInfo'
+import Portfolio from './Portfolio'
 import './styles/home.css'
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
         <div className="home">
             <Header />
             <main>
-                <PersonalInfo />
+                {/* <PersonalInfo /> */}
+                <Portfolio />
             </main>
             <footer>
                 <Footer />
