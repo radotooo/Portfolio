@@ -14,7 +14,7 @@ export default function Header() {
                 <NavMenu />
                 <div className="nav__content__text">
                     <p>Portfolio</p>
-                    <p> {resumeIcon} Resume</p>
+                    <p>{resumeIcon} Resume</p>
                 </div>
             </div>
 
