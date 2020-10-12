@@ -3,14 +3,14 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import './styles/header-nav-menu.css'
+import { Link } from "react-router-dom";
+
 
 export default function NavMenu() {
     const [toggleNavMenu, setToggleNavMenu] = useState("")
 
     const handleClick = (e) => {
-        if (e.target.nodeName !== "A") {
-            setToggleNavMenu("")
-        }
+        setToggleNavMenu("")
     }
 
     const handleIcons = () => {
@@ -30,8 +30,8 @@ export default function NavMenu() {
             {handleIcons()}
             <div className={["menu__content", toggleNavMenu].join(" ")}
                 onClick={handleClick} >
-                <a>Home</a>
-                <a>Portfolio</a>
+                <Link to="/" onClick={handleClick}>Home</Link>
+                <Link to="/portfolio" onClick={handleClick}>Portfolio</Link>
                 <a>Resume</a>
             </div>
         </div >

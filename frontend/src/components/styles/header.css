@@ -19,15 +19,14 @@
     margin: 1em;
     cursor: pointer;
 }
+ a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
 
 .nav p:hover{
     color: #ff80bf;
 }
-
-.nav__content>p:nth-child(1)::after {
-    flex-grow: 1;
-}
-
 
 .nav__content__text>p> .resume__icon{
     color:#9580ff;
@@ -40,6 +39,7 @@
 
 .nav__content__text{
     display: flex;
+    align-items: center;
 }
 
 @media (max-width:500px) {
