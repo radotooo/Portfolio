@@ -3,6 +3,7 @@ import "./styles/header.css"
 import NavMenu from './HeaderNavMenu'
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from "react-router-dom";
 
 export default function Header() {
     const resumeIcon = <FontAwesomeIcon className="resume__icon" icon={faFileDownload} />
@@ -10,10 +11,10 @@ export default function Header() {
     return (
         <div className="nav">
             <div className="nav__content">
-                <p>Home</p>
+                <Link to="/">Home</Link>
                 <NavMenu />
                 <div className="nav__content__text">
-                    <p>Portfolio</p>
+                    <Link to="/portfolio">Portfolio</Link>
                     <p>{resumeIcon} Resume</p>
                 </div>
             </div>
