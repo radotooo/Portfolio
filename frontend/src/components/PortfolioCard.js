@@ -4,7 +4,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './styles/portfolio_card.css'
 
-
 export default function Card(props) {
     const eyeIcon = <FontAwesomeIcon className="resume__icon" icon={faEye} />
     const githubIcon = <FontAwesomeIcon className="resume__icon" icon={faGithub} />
