@@ -15,7 +15,7 @@ export default function Header() {
                 <NavMenu />
                 <div className="nav__content__text">
                     <Link to="/portfolio">Portfolio</Link>
-                    <p>{resumeIcon} Resume</p>
+                    <a href="../data/common/Resume_R.Danev.docx" download>{resumeIcon} Resume</a>
                 </div>
             </div>
 

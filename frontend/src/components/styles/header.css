@@ -15,7 +15,7 @@
     flex-direction: row;
 }
 
-.nav p {
+.nav a {
     margin: 1em;
     cursor: pointer;
 }
@@ -28,7 +28,7 @@
     color: #ff80bf;
 }
 
-.nav__content__text>p> .resume__icon{
+.nav__content__text>a> .resume__icon{
     color:#9580ff;
 }
 
