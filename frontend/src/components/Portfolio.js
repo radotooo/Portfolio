@@ -1,36 +1,17 @@
 import React from 'react'
+import Card from './PortfolioCard'
 import './styles/portfolio.css'
-import { faEye } from "@fortawesome/free-solid-svg-icons"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 
 export default function Portfolio() {
-    const eyeIcon = <FontAwesomeIcon className="resume__icon" icon={faEye} />
-    const githubIcon = <FontAwesomeIcon className="resume__icon" icon={faGithub} />
+
     return (
         <div className="portfolio">
-            <div className="card">
-                <div className="card__title">
-                    <p>Tittle</p>
-                </div>
-                <img className="card__image" src="https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png" alt="" />
-                <div className="card__nav">
-                    <a href=""> {eyeIcon} Live</a>
-                    <a href=""> {githubIcon} Code</a>
-                </div>
-            </div>
-            <div className="card">
-                <div className="card__title">
-                    <p>Tittle</p>
-                </div>
-                <img className="card__image" src="https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png" alt="" />
-                <div className="card__nav">
-                    <a href=""> {eyeIcon} Live</a>
-                    <a href=""> {githubIcon} Code</a>
-                </div>
-            </div>
+            <Card title="Quote Machine" img="https://raw.githubusercontent.com/radotooo/ReactJs/master/RandomQuoteMachine/img/Screenshot_20201001_020046.jpg" codeUrl="https://github.com/radotooo/ReactJs/tree/master/RandomQuoteMachine" liveView="https://pensive-boyd-fe627b.netlify.app/" />
+
+            <Card title="Amazon clone" img="https://raw.githubusercontent.com/radotooo/ReactJs/master/AmazonClone/amazon-clone/public/screencapture-clone-aa0a9-web-app-2020-10-01-23_45_23.png" codeUrl="https://github.com/radotooo/ReactJs/tree/master/AmazonClone/amazon-clone" liveView="https://clone-aa0a9.web.app/" />
         </div>
     )
 }
