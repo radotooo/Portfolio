@@ -1,44 +1,18 @@
 .portfolio{
     width: 100%;
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-      margin-top: 50px;
- 
- }
-.card{
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-       margin: 1em;
-}
-.card__title{
-    background-color:#22212C;
-    width: 100%;
-    text-align: center;
-    color: #f2f2f2;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.card__image{
-    width: 100%;
-    height: auto;
-}
-.card__nav{
-    display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color:#22212C;
-    padding: 7px;
+    justify-content: center;
+    margin-top: 50px;
+    animation: fadeIn 1s;
 }
-.card__nav > a {
-         border-radius: 5px;
-      padding: 7px;
-      font-size: 18px;
-         }
-.card__nav >a:hover{
-    color: #ff80bf;
-    border-color: #ff80bf;
-}         
 
+@keyframes fadeIn{
+    0% {
+   opacity: 0;
+    }
 
+    100% {
+   opacity: 1;
+    }
+}
