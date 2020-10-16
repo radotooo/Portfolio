@@ -1,17 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import './styles/header-nav-menu.css'
 import { Link } from "react-router-dom";
+import ResumeButton from './ResumeButton';
 
 
-export default function NavMenu() {
-    const [toggleNavMenu, setToggleNavMenu] = useState("")
-
-    const handleClick = (e) => {
-        setToggleNavMenu("")
-    }
+export default function NavMenu({ toggleNavMenu, setToggleNavMenu }) {
 
     const handleIcons = () => {
         if (toggleNavMenu === "menu__show") {
@@ -29,10 +25,9 @@ export default function NavMenu() {
         <div className="nav__menu">
             {handleIcons()}
             <div className={["menu__content", toggleNavMenu].join(" ")}
-                onClick={handleClick} >
-                <Link to="/" onClick={handleClick}>Home</Link>
-                <Link to="/portfolio" onClick={handleClick}>Portfolio</Link>
-                <a>Resume</a>
+                onClick={() => setToggleNavMenu("")} >
+                <Link to="/portfolio">Portfolio</Link>
+                <ResumeButton />
             </div>
         </div >
     )

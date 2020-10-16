@@ -1,21 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./styles/header.css"
 import NavMenu from './HeaderNavMenu'
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
+import ResumeButton from './ResumeButton'
 
 export default function Header() {
-    const resumeIcon = <FontAwesomeIcon className="resume__icon" icon={faFileDownload} />
+    const [toggleNavMenu, setToggleNavMenu] = useState("")
 
     return (
         <div className="nav">
             <div className="nav__content">
-                <Link to="/">Home</Link>
-                <NavMenu />
+                <Link to="/" onClick={() => setToggleNavMenu("")}>Home</Link>
+                <NavMenu toggleNavMenu={toggleNavMenu} setToggleNavMenu={setToggleNavMenu} />
                 <div className="nav__content__text">
                     <Link to="/portfolio">Portfolio</Link>
-                    <a href="Resume_R.Danev.docx" download>{resumeIcon} Resume</a>
+                    <ResumeButton />
                 </div>
             </div>
 
