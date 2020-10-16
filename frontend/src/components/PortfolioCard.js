@@ -14,7 +14,7 @@ export default function Card(props) {
             </div>
             <img className="card__image" src={props.img} alt="" />
             <div className="card__nav">
-                <a href={props.liveView} target="_blank" rel="noopener noreferrer" > {eyeIcon} Live</a>
+                {props.liveView && <a href={props.liveView} target="_blank" rel="noopener noreferrer" > {eyeIcon} Live</a>}
                 <a href={props.codeUrl} target="_blank" rel="noopener noreferrer"> {githubIcon} Code</a>
             </div>
         </div >

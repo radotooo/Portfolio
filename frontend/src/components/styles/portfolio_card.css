@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     margin: 1em;
-}
+    border: 1px solid #22212C ;
+  }
 
 .card__title{
     background-color:#22212C;
