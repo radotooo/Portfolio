@@ -1,14 +1,15 @@
-
-.portfolio{
+.container{
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    margin-top: 50px;
-    animation: fadeIn 1s;
+    justify-content: center;
 }
-.lastCard::after{
-    content: "";
-    flex-basis: 100%;
+.portfolio{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill,minmax(0,300px));;
+    justify-content:center;
+    max-width: 960px; 
+    margin: 50px 16px;
+    animation: fadeIn 1s;
 }
 
 @keyframes fadeIn{
