@@ -7,7 +7,7 @@
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fill,minmax(0,300px));;
     justify-content:center;
-    max-width: 960px; 
+    max-width: 800px; 
     margin: 50px 16px;
     animation: fadeIn 1s;
 }

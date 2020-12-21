@@ -10,7 +10,7 @@ export default function ResumeButton() {
 
   return (
     <>
-      <a href="Radislav-Danev-Resume.pdf" download>
+      <a href="Radislav-Danev-Resume.pdf" target="_blank">
         {resumeIcon} Resume
       </a>
     </>

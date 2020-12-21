@@ -13,6 +13,8 @@ export default function Portfolio() {
 
                 <Card title="Portfolio" img="https://live.staticflickr.com/65535/50495662926_93635dd588_w.jpg" codeUrl="https://github.com/radotooo/Portfolio/tree/main/frontend" liveView="" />
 
+                <Card title="To-do List" img="https://live.staticflickr.com/65535/50745095402_106e386914_w.jpg" codeUrl="https://github.com/radotooo/VueJs" liveView="" />
+
             </div>
         </div>
     )
