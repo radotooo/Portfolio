@@ -24,6 +24,7 @@
 }
 
 .card__nav{
+    padding: 7px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -33,8 +34,8 @@
 }
 
 .card__nav > a {
+    border-radius: 5px;
     padding: 7px;
-    margin: 7.5px;
     font-size: 18px;
 }
 
